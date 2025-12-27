@@ -161,6 +161,7 @@ class Scene_title extends Scene
 		
 		let projectlist = new ProjectList(pparent);
 		// 2025
+		projectlist.add("silversky","./asset/98IZAy.png","https://oblerion.itch.io/silver-sky",["lua"]);
 		projectlist.add("exodus","./asset/lTKzHQ.png","https://oblerion.itch.io/exodus",["c","c++","sql"]);
 
 		// 2024
