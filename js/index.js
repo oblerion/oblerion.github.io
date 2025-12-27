@@ -31,7 +31,7 @@ function ffooter(html)
 		"Itch.io","https://oblerion.itch.io",
 		"Github","https://github.com/oblerion",
 		"Artstation","https://oblerion.artstation.com",
-		"Facebook","https://www.facebook.com/profile.php?id=61565835281292"
+		"Twitter","https://x.com/Magnus0blerion"
 	]
 	
 	let footer = html.addChild("footer");
@@ -50,14 +50,6 @@ function ffooter(html)
 		let p = footer.addChild("p");
 			p.addContent("email : magnusoblerion@proton.me");
 			p.setAttribute("class","title_des");
-		let form = footer.addChild("form");
-			form.setAttribute("action","mailto:magnusoblerion@proton.me");
-			
-		let btn_send = form.addChild("input");
-			btn_send.setAttribute("type","submit");
-			btn_send.setAttribute("class","button_tech");
-			btn_send.setAttribute("style","display:block;margin-left:auto;margin-right:auto;");
-			btn_send.setAttribute("value","send mail");	
 }
 
 class Scene
