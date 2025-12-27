@@ -31,7 +31,7 @@ function ffooter(html)
 		"Itch.io","https://oblerion.itch.io",
 		"Github","https://github.com/oblerion",
 		"Artstation","https://oblerion.artstation.com",
-		"Twitter","https://x.com/Magnus0blerion"
+		"Twitter(X)","https://x.com/Magnus0blerion"
 	]
 	
 	let footer = html.addChild("footer");
