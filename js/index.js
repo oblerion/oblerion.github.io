@@ -95,6 +95,13 @@ class Scene_title extends Scene
 					let img = section.addChild("img");
 						img.setAttribute("src","./asset/canvas-nightshade-slow.png");
 						img.setAttribute("class","img_title");
+					let a_kf = section.addChild("a");
+						a_kf.setAttribute("href",'https://ko-fi.com/W7W6104M9L');
+						a_kf.setAttribute("target","_blank");
+						let img_kf = a_kf.addChild("img");
+							img_kf.setAttribute("src",'https://storage.ko-fi.com/cdn/kofi2.png?v=6');
+							img_kf.setAttribute("alt",'Buy Me a Coffee at ko-fi.com');
+							img_kf.setAttribute("class","img_kf");
 					let p = section.addChild("p");
 						p.setAttribute("class","title_des");
 						p.addContent("Autistic C/JS indiedev <br>");

@@ -32,9 +32,17 @@ html{
 .img_title
 {
 	display:block;
-	width:25%;
 	margin-left:auto;
 	margin-right:auto;
+}
+.img_kf
+{
+	border:0px;
+	height:36px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 0.5%;
 }
 .button_tech{
 	font-size: 19px;
