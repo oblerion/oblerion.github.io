@@ -43,7 +43,7 @@ html{
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
-	padding-top: 0.5%;
+	padding-top: 10px;
 }
 .button_tech{
 	font-size: 19px;
@@ -83,7 +83,8 @@ html{
 .project_img{
 	display: inline-block;
 	border-radius: 5px;
-	min-width: 100%;
+	/*min-width: 100%;*/
+	max-width: 180px;
 	min-height: 100%;
 	margin-top: 1%;
 	margin-left: 5%;
